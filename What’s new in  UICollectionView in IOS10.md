@@ -28,17 +28,17 @@
 
 ### prepareForReuse / cellForItemAtIndexPath :
          之前是cell的上边缘马上进去屏幕的时候就会调用该方法,而iOS 10 提前到cell还在屏幕外面的时候就调用; 
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.43.52.png)
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.44.07.png)
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.44.19.png)
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.44.32.png)
+![](Resource/屏幕快照%202016-12-14%2019.43.52.png)
+![](Resource/屏幕快照%202016-12-14%2019.44.07.png)
+![](Resource/屏幕快照%202016-12-14%2019.44.19.png)
+![](Resource/屏幕快照%202016-12-14%2019.44.32.png)
 
 - - - -
 
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.44.44.png)
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.44.53.png)
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.45.06.png)
-![](What’s new in  UICollectionView in IOS10/屏幕快照%202016-12-14%2019.45.17.png)
+![](Resource/屏幕快照%202016-12-14%2019.44.44.png)
+![](Resource/屏幕快照%202016-12-14%2019.44.53.png)
+![](Resource/屏幕快照%202016-12-14%2019.45.06.png)
+![](Resource/屏幕快照%202016-12-14%2019.45.17.png)
 
 ###  hold a little bit  longer :
           在iOS 10 之前,cell只能从重用队列里面取出,再走一遍生命周期,并调用cellForItemAtIndexPath创建或者生成一个cell.在iOS 10 中,系统会cell保存一段时间,也就是说当用户把cell滑出屏幕以后,如果又滑动回来,cell不用再走一遍生命周期了,只需要调用willDisplayCell方法就可以重新出现在屏幕中了.
