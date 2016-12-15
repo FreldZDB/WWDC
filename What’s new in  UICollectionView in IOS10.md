@@ -1,6 +1,6 @@
                                       What’s new in  UICollectionView in IOS10
 
-第一部分 Smooth scrolling 
+##  第一部分 Smooth scrolling 
 
 ### 1.circle of life of cell
     
@@ -80,7 +80,7 @@ UITableView也适用
 
 
 
-第二部分 Improvements to self-sizing cells 
+##  第二部分 Improvements to self-sizing cells 
 
 
 
@@ -103,7 +103,7 @@ UITableView也适用
 ```
 
 
-第三部分 interactive reordering
+##  第三部分 interactive reordering
 
 ### interactive reordering，iOS9
 
@@ -140,10 +140,14 @@ UITableView也适用
 
 
 
-总结：
+##总结：
+
        ##  cell生命周期
        ##  model pre-fetching 
        ##  UICollectionViewFlowLayoutAutomaticSize
-      
-参考：
- [UICollectionView in ios10](https://developer.apple.com/videos/play/wwdc2016/219/)
+      
+##参考：
+
+      [UICollectionView in ios10](https://developer.apple.com/videos/play/wwdc2016/219/)
+ 
+ 
