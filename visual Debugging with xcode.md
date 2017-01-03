@@ -53,7 +53,7 @@
 
 ### 三，Memory graph debugging
 
-在 xcode 8上运行 iOS 10 以及以上的设备 会出现这个一个按钮，点击可以看到某一时刻内存中所有的class，点击class可以看出谁持有了这个类，如下列图中所示（这里假设只有一个根控制器FirstViewContrller从根控制器push过去添加SecondVC，并且设置SecondVC的block） 
+在 xcode 8上运行 iOS 10 以及以上的设备 会出现这个一个按钮，点击可以看到某一时刻内存中所有的class，点击class可以看出谁持有了这个类，
  
 ![](Resource/86E05E43-80A9-4FDE-BDFF-CB12CC96BD3E.png)
  
