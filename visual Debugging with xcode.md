@@ -1,4 +1,4 @@
-##                   visual Debugging with xcode
+##                   Visual Debugging with xcode
 主要分为以下几部分内容：
 
 1. Runtime issues 
